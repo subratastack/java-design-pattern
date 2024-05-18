@@ -1,4 +1,4 @@
-package designpattern.creational;
+package designpattern.creational.builder;
 
 class User {
     public String street;
