@@ -30,7 +30,7 @@ public class Demo {
                 .forEach(System.out::println);
         System.out.println("Filter by color and size:");
         betterFilter.filter(List.of(apple, berry, house), new AndSpecification<Product>(
-                new ColorSpecification(Color.RED),
+                new ColorSpecification(Color.BLUE),
                 new SizeSpecification(Size.SMALL)))
                 .forEach(System.out::println);
     }

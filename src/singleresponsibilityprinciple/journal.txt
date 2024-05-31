@@ -1,2 +1,2 @@
-1: I ate breakfast today.
-2: I wrote a java program.
+1: PERSONAL - I ate breakfast today.
+2: WORK - I wrote a java program.
