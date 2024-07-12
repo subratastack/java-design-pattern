@@ -4,13 +4,13 @@ public class Demo {
 
     public static void calculate(Rectangle r, String type) {
         int width = r.getWidth();
-        r.setHeight(10);
-        // if (!r.isSquare()) r.setHeight(10);
+        // r.setHeight(10);
+        if (!r.isSquare()) r.setHeight(10);
         // area = width * 10
         System.out.println("Calculating area of " + type);
-        System.out.println("Expected area: " + (width * 10));
+        System.out.println("Expected area: " + (!r.isSquare() ? (width * 10) : (width * width)));
         System.out.println("Calculated area: " + r.area());
-        // System.out.println("Is Rectangle: " + r.isSquare());
+        System.out.println("Is Rectangle: " + r.isSquare());
         System.out.println("-".repeat(20) + "\n");
     }
 
